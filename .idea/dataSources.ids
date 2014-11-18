@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails element_nutrition_holding: development" uuid="e9f721d1-5970-4dcf-ada1-76dce83cb30e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails element_nutrition_holding: test" uuid="41f99d38-1886-4c97-8377-84417612a2ec">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails element_nutrition_holding: production" uuid="041e828e-53bd-475c-b6d3-15b3135c917c">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

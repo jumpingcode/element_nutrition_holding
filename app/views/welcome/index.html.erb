@@ -1,0 +1,29 @@
+<h1>Element Nutrition</h1>
+
+<p>
+  The site is under construction right now. In the meantime, sign up to our mailing list for updates...
+</p>
+
+<% if @user.errors.any? %>
+
+    <div class="row alert alert-warning">
+      <h2>Please fix the following <%= pluralize(@user.errors.count, "error") %>:</h2>
+      <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+
+<% end %>
+
+<%= form_for @user, url: create_user_path do |f| %>
+
+    <%= f.hidden_field :referrer_id %>
+
+    <%= f.label :email %>:
+    <%= f.text_field :email %>
+
+    <%= f.submit 'Sign up' %>
+
+<% end %>
